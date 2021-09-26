@@ -1,0 +1,49 @@
+body {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.links{
+	text-decoration:underline;
+	color:white;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+.desc{
+	color:white;
+}
+
+.textheader {
+	color: white;
+	font-size: 32px;
+}
+
+.ol{
+	color:white;
+}
+
+.lecture {
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	display: table-cell;
+}
+
+.flexcontainer{
+	display:flex;
+	align-items:center;
+}
