@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<orarend id=Első Nap>
+<orarend id=Hétfő>
 
 	<ora id="webtech" típus="elmélet">
 	<targy WEB technológiák/>
@@ -38,7 +38,7 @@
 
 
 
-<orarend id=Második Nap>
+<orarend id=Kedd>
 
 	<ora id="XML" típus="elmélet">
 	<targy Adatkezelés XML-ben />
@@ -87,7 +87,7 @@
 
 
 
-<orarend id=Harmadik Nap>
+<orarend id=Szerda>
 	<ora id="MesInt" típus="gyakorlat">
 	<targy Mesterséges Intelligencia />
 	
