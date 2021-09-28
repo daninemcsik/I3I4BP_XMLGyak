@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konyv id=01 abstract="true">
+
+    <cim Programming Pearls />
+    <kiadasiEv 2006.12.01/>
+    <kidao Dorling Kindersley Pvt Ltd/>
+    <szerzo Jon Bentley/>
+
+
+</konyv>
+
+<konyv id=02 abstract="true">
+
+    <cim  Introduction to Algorithms/>
+    <kiadasiEv 1990/>
+    <kidao MIT P-ress/>
+    <szerzo Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein/>
+
+
+</konyv>
+
+<konyv id=03 abstract="true">
+
+    <cim  HTML and CSS: Design and Build Websites/>
+    <kiadasiEv 2011. október 25./>
+    <kidao Wiley/>
+    <szerzo Jon Duckett/>
+
+
+</konyv>
