@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ermodell SYSTEM "ND_ertodtd.dtd">
+
+<ermodell>
+	
+	<A Aa = "A01">
+		<Ab>
+			<Abx>Abx mintaszöveg</Abx>
+			<Aby>Aby mintaszöveg</Aby>
+		</Ab>
+		
+		<Ac>
+			<Acd>Acd mintaszöveg</Acd>
+			<Ace>Ace mintaszöveg</Ace>
+		</Ac>
+	</A>
+	
+	
+	<B Ba = "B01">
+		<Bb>
+			<Bbx>Bbx mintaszöveg</Bbx>
+			<Bby>Bby mintaszöveg</Bby>
+		</Bb>
+	</B>
+
+
+	<C Ca = "C01">
+		<Cb>Cb mintaszöveg</Cb>
+	</C>
+
+
+	<A_B A_B_a = "A01" A_B_b = "B01">
+		<A_Bc>A_Bc mintaszöveg</A_Bc>
+	</A_B>
+
+</ermodell>

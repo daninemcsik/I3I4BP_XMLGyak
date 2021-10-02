@@ -1,31 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version = "1.0" encoding = "utf-8"?>
 
-<konyv id=01 abstract="true">
+<!DOCTYPE konyvek SYSTEM "ND_konyv.dtd">
 
-    <cim Programming Pearls />
-    <kiadasiEv 2006.12.01/>
-    <kidao Dorling Kindersley Pvt Ltd/>
-    <szerzo Jon Bentley/>
+<konyvek>
+    <konyv id = "01" abstract = "true">
 
-
-</konyv>
-
-<konyv id=02 abstract="true">
-
-    <cim  Introduction to Algorithms/>
-    <kiadasiEv 1990/>
-    <kidao MIT P-ress/>
-    <szerzo Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein/>
+        <cim> Programming Pearls </cim>
+        <kiadasiEv> 2006.12.01 </kiadasiEv>
+        <kiado> Dorling Kindersley Pvt Ltd </kiado>
+        <szerzo> Jon Bentley </szerzo>
 
 
-</konyv>
+    </konyv>
 
-<konyv id=03 abstract="true">
+    <konyv id = "02" abstract = "true">
 
-    <cim  HTML and CSS: Design and Build Websites/>
-    <kiadasiEv 2011. október 25./>
-    <kidao Wiley/>
-    <szerzo Jon Duckett/>
+        <cim>  Introduction to Algorithms </cim>
+        <kiadasiEv> 1990 </kiadasiEv>
+        <kiado> MIT P-ress </kiado>
+        <szerzo> Thomas H. Cormen </szerzo>
+        <szerzo> Charles E. Leiserson</szerzo>
+        <szerzo> Ronald L. Rivest </szerzo>
+        <szerzo> Clifford Stein </szerzo>
+
+    </konyv>
+
+    <konyv id = "03" abstract = "true">
+
+        <cim> HTML and CSS: Design and Build Websites </cim>
+        <kiadasiEv>  2011. október 25. </kiadasiEv>
+        <kiado> Wiley </kiado>
+        <szerzo> Jon Duckett </szerzo>
 
 
-</konyv>
+    </konyv>
+</konyvek>

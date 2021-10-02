@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE adatbázis SYSTEM "ND_adatbazis.dtd">
+
+<adatbázis>
+
+	<DOLGOZO kod = "d01">
+		<nev>Ferenc</nev>
+		<fizetes>300.000</fizetes>
+	</DOLGOZO>
+
+	<DOLGOZO kod = "d02">
+		<nev>Tibor</nev>
+		<fizetes>280.000</fizetes>
+	</DOLGOZO>
+
+</adatbázis>
