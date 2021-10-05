@@ -1,0 +1,9 @@
+<!ELEMENT konyvek (konyv)+ >
+<!ELEMENT konyv (cim, kiadasiEv, kiado, (szerzo)+, abstract) >
+<!ELEMENT cim (#PCDATA) >
+<!ELEMENT kiadasiEv (#PCDATA) >
+<!ELEMENT kiado (#PCDATA) >
+<!ELEMENT szerzo (#PCDATA) >
+<!ELEMENT abstract (#PCDATA) >
+
+<!ATTLIST konyv id CDATA #REQUIRED >
