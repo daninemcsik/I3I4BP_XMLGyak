@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!DOCTYPE orarend SYSTEM "ND_orarend.dtd">
+<!--  <!DOCTYPE orarend SYSTEM "ND_orarend.dtd"> -->
 
-<tanitasiHet>
+<tanitasiHet xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="http://www.example.com/ND_orarend.xsd">
 
 	<orarend id = "Hétfő">
 	

@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "utf-8"?>
-<!DOCTYPE xml>
+
 <!-- !DOCTYPE konyvek SYSTEM "ND_konyv.dtd">-->
  
-<konyvek xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="C:\Users\Acer\eclipse-workspace\I3I4BP_1005\ND_konyv.xsd">
+<konyvek xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="http://www.example.com/ND_konyv.xsd">
     <konyv id = "01">
 
         <cim> Programming Pearls </cim>
@@ -36,4 +36,5 @@
 
 
     </konyv>
+ 
 </konyvek>
