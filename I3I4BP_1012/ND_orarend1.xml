@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<orarend xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="http://www.example.com/ND_orarend1.xsd">
+
+	<orarend id = "Hétfő">
+	
+		<ora id = "webtech" típus = "elmélet">
+		<targy>WEB technológiák</targy> 
+			
+		<idopont>
+			<nap>Hétfő </nap>
+			<tol> 12:00 </tol>
+			<ig> 14:00 </ig>
+		</idopont>
+		
+		<helyszin> XXX A1 305. terem </helyszin>
+		<oktato> Agárdi Anita </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id = "MesInt" típus = "elmélet">
+		<targy> Mesterséges Intelligencia </targy> 
+		
+		<idopont>
+			<nap>  Hétfő </nap>
+			<tol> 14:00 </tol>
+			<ig> 17:00 </ig>
+		</idopont>
+		
+		<helyszin> A1 magasfsz XXXII. előadó </helyszin>
+		<oktato> Dr. Dudás László </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+	</orarend>
+	
+	
+	<orarend id ="Kedd">
+	
+		<ora id = "XML" típus = "elmélet">
+		<targy>Adatkezelés XML-ben</targy> 
+		
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 12:00 </tol>
+			<ig> 14:00 </ig>
+		</idopont>
+		
+		<helyszin> A2 fsz. I. előadó  </helyszin>
+		<oktato> Dr. Bednarik László </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id = "XML" típus = "gyakorlat">
+		<targy>Adatkezelés XML-ben</targy> 
+		
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 14:00 </tol>
+			<ig> 16:00 </ig>
+		</idopont>
+		
+		<helyszin> Informatika épület 103. terem </helyszin>
+		<oktato> Dr. Bednarik László </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id = "webtech" típus = "gyakorlat">
+		<targy>WEB technológiák</targy> 
+		
+		<idopont>
+			<nap> Kedd </nap>
+			<tol> 16:00 </tol>
+			<ig> 18:00 </ig>
+		</idopont>
+		
+		<helyszin> Informatika épület 103. terem </helyszin>
+		<oktato> Agárdi Anita </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+	</orarend>
+	
+	
+	
+	
+	<orarend id = "Szerda">
+		<ora id = "MesInt" típus = "gyakorlat">
+		<targy> Mesterséges Intelligencia</targy> 
+		
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 10:00 </tol>
+			<ig> 11:00 </ig>
+		</idopont>
+		
+		<helyszin> Informatika épület 15. terem </helyszin>
+		<oktato> Dr. Dudás László </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id = "VállalatiInfó" típus = "elmélet">
+		<targy> Vállalati információs rendszerek </targy> 
+		
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 16:00 </tol>
+			<ig> 18:00 </ig>
+		</idopont>
+		
+		<helyszin> Informatika épület 103. terem </helyszin>
+		<oktato> Dr. Sasvári Péter </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+		<ora id = "VállalatiInfó" típus = "gyakorlat">
+		<targy> Vállalati információs rendszerek </targy> 
+		
+		<idopont>
+			<nap> Szerda </nap>
+			<tol> 18:00 </tol>
+			<ig> 20:00 </ig>
+		</idopont>
+		
+		<helyszin> Informatika épület 103. terem </helyszin>
+		<oktato> Dr. Sasvári Péter </oktato>
+		<szak> Programtervező Informatikus </szak>
+		</ora>
+		
+	</orarend>
+
+</orarend>
