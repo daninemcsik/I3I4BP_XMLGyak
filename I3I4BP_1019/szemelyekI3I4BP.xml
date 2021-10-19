@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE szemelyek SYSTEM "szemelyekI3I4BP.dtd">-->
+<!DOCTYPE xml>
+
+<!-- <szemelyek> -->
+<szemelyek xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+xs:noNamespaceSchemaLocation="http://www.example.com/szemelyekI3I4BP.xsd">
+	<szemely nem="ferfi">
+		<szemely_id id="sz_01">
+			<nev id="nev_01">Nemcsik Dániel</nev>
+			<kor >21</kor>
+			<varos id="varos_01">Miskolc</varos>
+		</szemely_id>
+	</szemely>
+</szemelyek>

@@ -1,0 +1,11 @@
+<!ELEMENT szemelyek (szemely+) >
+<!ELEMENT szemely (szemely_id) >
+<!ELEMENT szemely_id (nev, kor, varos) >
+<!ELEMENT nev (#PCDATA) >
+<!ELEMENT kor (#PCDATA) >
+<!ELEMENT varos (#PCDATA) >
+
+<!ATTLIST szemely nem CDATA #REQUIRED >
+<!ATTLIST szemely_id id ID #REQUIRED >
+<!ATTLIST nev id ID #REQUIRED >
+<!ATTLIST varos id ID #REQUIRED >
