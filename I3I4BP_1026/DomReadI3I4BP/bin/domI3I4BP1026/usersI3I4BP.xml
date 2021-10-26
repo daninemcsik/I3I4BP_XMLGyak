@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xs:noNamespaceSchemaLocation="http://example.com/usersI3I4BP.xsd">
+	<user>
+		<user_id id="1">
+			<firstname>Dániel</firstname>
+			<lastname>Nemcsik</lastname>
+			<profession>Diák</profession>
+		</user_id>
+	</user>
+	
+	<user>
+		<user_id id="2">
+			<firstname>Ferenc</firstname>
+			<lastname>Kiss</lastname>
+			<profession>Mérnök</profession>
+		</user_id>
+	</user>
+	
+	<user>
+		<user_id id="3">
+			<firstname>Tibi</firstname>
+			<lastname>Nagy</lastname>
+			<profession>Tanár</profession>
+		</user_id>
+	</user>
+</users>
