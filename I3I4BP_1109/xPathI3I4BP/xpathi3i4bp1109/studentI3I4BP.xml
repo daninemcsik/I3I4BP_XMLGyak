@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+	<student>
+		<student_id id="01">
+			<keresztnév id="01">Dániel</keresztnév>
+			<vezetéknév id="01">Nemcsik</vezetéknév>
+			<becenév>Dani</becenév>
+			<kor>21</kor>
+		</student_id>
+	</student>
+</class>
