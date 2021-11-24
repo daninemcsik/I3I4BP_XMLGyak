@@ -16,6 +16,7 @@
 									<xs:sequence>
 										<xs:element name="szElérhetőség" type="xs:unsignedInt" />
 										<xs:element name="szNév" type="xs:string" />
+										<xs:element name="szÉletkor" type="xs:unsignedInt" />
 									</xs:sequence>
 									<xs:attribute name="szkod" type="xs:unsignedInt" use="required" />
 								</xs:complexType>
@@ -25,6 +26,7 @@
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="kiVáros" type="xs:string" />
+										<xs:element name="kiCím" type="xs:string" />
 										<xs:element name="kiNév" type="xs:string" />
 									</xs:sequence>
 									<xs:attribute name="kikod" type="xs:unsignedInt" use="required" />
@@ -34,7 +36,8 @@
 							<xs:element name="Könyvesbolt">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="kbUtcaszám" type="xs:string" />
+										<xs:element name="kbVáros" type="xs:string" />
+										<xs:element name="kbCím" type="xs:string" />
 										<xs:element name="kbNév" type="xs:string" />
 									</xs:sequence>
 									<xs:attribute name="telefonszam" type="xs:unsignedInt" use="required" />
@@ -45,7 +48,7 @@
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="vNév" type="xs:string" />
-										<xs:element name="vAdatok" type="xs:unsignedInt" />
+										<xs:element name="vÉletkor" type="xs:unsignedInt" />
 										<xs:element name="lakcím">
 											<xs:complexType>
 												<xs:sequence>

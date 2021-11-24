@@ -9,21 +9,24 @@
 		<Szerző szkod="01">
 			<szElérhetőség>305256314</szElérhetőség>
 			<szNév>Kerry Fisher</szNév>
+			<szÉletkor>60</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="01">
 			<kiVáros>Szeged</kiVáros>
+			<kiCím>Szegedi utca 3.</kiCím>
 			<kiNév>Szegedi kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="704813192">
-			<kbUtcaszám>Szeged, Vitéz utca 30.</kbUtcaszám>
+			<kbVáros>Szeged</kbVáros>
+			<kbCím>Vitéz utca 30.</kbCím>
 			<kbNév>Szögödi könyvök</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="04">
 			<vNév>Kovács Tímea</vNév>
-			<vAdatok>25</vAdatok>
+			<vÉletkor>25</vÉletkor>
 			<lakcím>
 				<vVáros>Szeged</vVáros>
 				<vUtca>Zoltán utca</vUtca>
@@ -42,21 +45,24 @@
 		<Szerző szkod="02">
 			<szElérhetőség>708312943</szElérhetőség>
 			<szNév>Robin Cuddy</szNév>
+			<szÉletkor>42</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="02">
 			<kiVáros>Budapest</kiVáros>
+			<kiCím>Pesti út 65.</kiCím>
 			<kiNév>Pesti kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="307318491">
-			<kbUtcaszám>Budapest, Szugló utca 40.</kbUtcaszám>
+			<kbVáros>Budapest</kbVáros>
+			<kbCím>Szugló utca 40.</kbCím>
 			<kbNév>Book-A-Pest</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="01">
 			<vNév>Nagy Ferenc</vNév>
-			<vAdatok>42</vAdatok>
+			<vÉletkor>42</vÉletkor>
 			<lakcím>
 				<vVáros>Budapest</vVáros>
 				<vUtca>Lovarda utca</vUtca>
@@ -75,21 +81,24 @@
 		<Szerző szkod="03">
 			<szElérhetőség>207318219</szElérhetőség>
 			<szNév>Ken Follett</szNév>
+			<szÉletkor>72</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="03">
 			<kiVáros>Miskolc</kiVáros>
+			<kiCím>Miskolci utca 11.</kiCím>
 			<kiNév>Miskolci kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="207431975">
-			<kbUtcaszám>Miskolci, Széchenyi utca 20.</kbUtcaszám>
+			<kbVáros>Miskolci</kbVáros>
+			<kbCím>Széchenyi utca 20.</kbCím>
 			<kbNév>Libri Miskolc</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="05">
 			<vNév>Huszár Zsófia</vNév>
-			<vAdatok>33</vAdatok>
+			<vÉletkor>33</vÉletkor>
 			<lakcím>
 				<vVáros>Miskolc</vVáros>
 				<vUtca>Huba utca</vUtca>
@@ -108,21 +117,24 @@
 		<Szerző szkod="04">
 			<szElérhetőség>304891398</szElérhetőség>
 			<szNév>Fehér Krisztián</szNév>
+			<szÉletkor>45</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="04">
 			<kiVáros>Eger</kiVáros>
+			<kiCím>Egri út 7.</kiCím>
 			<kiNév>Egri kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="309184751">
-			<kbUtcaszám>Eger, Sóház utca 11.</kbUtcaszám>
+			<kbVáros>Eger</kbVáros>
+			<kbCím>Sóház utca 11.</kbCím>
 			<kbNév>Lira Eger</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="03">
 			<vNév>Fekete Roland</vNév>
-			<vAdatok>20</vAdatok>
+			<vÉletkor>20</vÉletkor>
 			<lakcím>
 				<vVáros>Eger</vVáros>
 				<vUtca>Gáz utca</vUtca>
@@ -141,21 +153,24 @@
 		<Szerző szkod="05">
 			<szElérhetőség>703189418</szElérhetőség>
 			<szNév>Stephen King</szNév>
+			<szÉletkor>74</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="05">
 			<kiVáros>Szombathely</kiVáros>
+			<kiCím>Szombathely utca 13.</kiCím>
 			<kiNév>Szombathelyi kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="701831951">
-			<kbUtcaszám>Szombathely, Forró utca 3.</kbUtcaszám>
+			<kbVáros>Szombathely</kbVáros>
+			<kbCím>Forró utca 3.</kbCím>
 			<kbNév>Office Könyvesbolt</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="02">
 			<vNév>Kis Tibor</vNév>
-			<vAdatok>30</vAdatok>
+			<vÉletkor>30</vÉletkor>
 			<lakcím>
 				<vVáros>Szombathely</vVáros>
 				<vUtca>Ferencsik utca</vUtca>
@@ -174,21 +189,24 @@
 		<Szerző szkod="01">
 			<szElérhetőség>305256314</szElérhetőség>
 			<szNév>Kerry Fisher</szNév>
+			<szÉletkor>60</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="01">
 			<kiVáros>Szeged</kiVáros>
+			<kiCím>Szegedi utca 3.</kiCím>
 			<kiNév>Szegedi kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="704813192">
-			<kbUtcaszám>Szeged, Vitéz utca 30.</kbUtcaszám>
+			<kbVáros>Szeged</kbVáros>
+			<kbCím>Vitéz utca 30.</kbCím>
 			<kbNév>Szögödi könyvök</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="09">
 			<vNév>Lakatos Noel</vNév>
-			<vAdatok>50</vAdatok>
+			<vÉletkor>50</vÉletkor>
 			<lakcím>
 				<vVáros>Szeged</vVáros>
 				<vUtca>Forró utca</vUtca>
@@ -207,21 +225,24 @@
 		<Szerző szkod="02">
 			<szElérhetőség>708312943</szElérhetőség>
 			<szNév>Robin Cuddy</szNév>
+			<szÉletkor>42</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="02">
 			<kiVáros>Budapest</kiVáros>
+			<kiCím>Pesti út 65.</kiCím>
 			<kiNév>Pesti kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="307318491">
-			<kbUtcaszám>Budapest, Szugló utca 40.</kbUtcaszám>
+			<kbVáros>Budapest</kbVáros>
+			<kbCím>Szugló utca 40.</kbCím>
 			<kbNév>Book-A-Pest</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="10">
 			<vNév>Bognár Éva</vNév>
-			<vAdatok>66</vAdatok>
+			<vÉletkor>66</vÉletkor>
 			<lakcím>
 				<vVáros>Budapest</vVáros>
 				<vUtca>Zöld utca</vUtca>
@@ -240,21 +261,24 @@
 		<Szerző szkod="03">
 			<szElérhetőség>207318219</szElérhetőség>
 			<szNév>Ken Follett</szNév>
+			<szÉletkor>72</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="03">
 			<kiVáros>Miskolc</kiVáros>
+			<kiCím>Miskolci utca 11.</kiCím>
 			<kiNév>Miskolci kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="301829231">
-			<kbUtcaszám>Miskolc, Iroda utca 4.</kbUtcaszám>
+			<kbVáros>Miskolc</kbVáros>
+			<kbCím>Iroda utca 4.</kbCím>
 			<kbNév>Office Könyvesbolt</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="08">
 			<vNév>Mezei Gábor</vNév>
-			<vAdatok>39</vAdatok>
+			<vÉletkor>39</vÉletkor>
 			<lakcím>
 				<vVáros>Miskolc</vVáros>
 				<vUtca>Gyula utca</vUtca>
@@ -273,21 +297,24 @@
 		<Szerző szkod="04">
 			<szElérhetőség>304891398</szElérhetőség>
 			<szNév>Fehér Krisztián</szNév>
+			<szÉletkor>45</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="04">
 			<kiVáros>Eger</kiVáros>
+			<kiCím>Egri út 7.</kiCím>
 			<kiNév>Egri kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="309184751">
-			<kbUtcaszám>Eger, Sóház utca 11.</kbUtcaszám>
+			<kbVáros>Eger</kbVáros>
+			<kbCím>Sóház utca 11.</kbCím>
 			<kbNév>Lira Eger</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="06">
 			<vNév>Kiss Levente</vNév>
-			<vAdatok>18</vAdatok>
+			<vÉletkor>18</vÉletkor>
 			<lakcím>
 				<vVáros>Eger</vVáros>
 				<vUtca>Fényes utca</vUtca>
@@ -306,21 +333,24 @@
 		<Szerző szkod="05">
 			<szElérhetőség>703189418</szElérhetőség>
 			<szNév>Stephen King</szNév>
+			<szÉletkor>74</szÉletkor>
 		</Szerző>
 		
 		<Kiadó kikod="05">
 			<kiVáros>Szombathely</kiVáros>
+			<kiCím>Szombathely utca 13.</kiCím>
 			<kiNév>Szombathelyi kiadó</kiNév>
 		</Kiadó>
 		
 		<Könyvesbolt telefonszam ="208194851">
-			<kbUtcaszám>Szombathely, Vezér utca 6.	</kbUtcaszám>
+			<kbVáros>Szombathely</kbVáros>
+			<kbCím>Vezér utca 6.</kbCím>
 			<kbNév>Office Könyvesbolt</kbNév>
 		</Könyvesbolt>
 		
 		<Vásárló vkod="07">
 			<vNév>Barna Virág</vNév>
-			<vAdatok>55</vAdatok>
+			<vÉletkor>55</vÉletkor>
 			<lakcím>
 				<vVáros>Szombathely</vVáros>
 				<vUtca>Szepes utca</vUtca>
