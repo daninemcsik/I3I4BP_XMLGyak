@@ -71,12 +71,14 @@ public class DOMReadI3I4BP {
 						if(Knode.getNodeType() == Node.ELEMENT_NODE) {
 							Element Kelement = (Element) Knode;
 							
-							String kikod = Kelement.getAttribute("kikod");	
+							String kikod = Kelement.getAttribute("kikod");
+							String kkod = Kelement.getElementsByTagName("kkod").item(0).getTextContent();
 							String kiVaros = Kelement.getElementsByTagName("kiVáros").item(0).getTextContent();	//Kiadó elem belsõ tulajdonságainak elérése
 							String kiCim = Kelement.getElementsByTagName("kiCím").item(0).getTextContent();
 							String kiNev = Kelement.getElementsByTagName("kiNév").item(0).getTextContent();
 								
 							System.out.println("Kiadó kódja : " + kikod);
+							System.out.println("Kiadott könyv kódja : " + kkod);
 							System.out.println("Kiadó városa : " + kiVaros);	//Ezek kiíratása
 				            System.out.println("Kiadó címe : " + kiCim);
 				            System.out.println("Kiadó neve : " + kiNev);
@@ -88,17 +90,86 @@ public class DOMReadI3I4BP {
 						if(Kbnode.getNodeType() == Node.ELEMENT_NODE) {
 							Element KBelement = (Element) Kbnode;
 							
-							String kbszam = KBelement.getAttribute("telefonszam");	
+							String kbkod = KBelement.getAttribute("kbkod");	
 							String kbVaros = KBelement.getElementsByTagName("kbVáros").item(0).getTextContent();	//Könyvesbolt elem belsõ 
 							String kbCim = KBelement.getElementsByTagName("kbCím").item(0).getTextContent();		//tulajdonságainak elérése
 							String kbNev = KBelement.getElementsByTagName("kbNév").item(0).getTextContent();
 								
-							System.out.println("Könyvesbolt telefonszáma : " + kbszam);
+							System.out.println("Könyvesbolt kódja : " + kbkod);
 							System.out.println("Könyvesbolt városa : " + kbVaros);
 				            System.out.println("Könyvesbolt címe : " + kbCim);	//Ezek kiíratása
 				            System.out.println("Könyvesbolt neve : " + kbNev);
 				            System.out.println();	                
 		                }
+						
+						NodeList tszam = doc.getElementsByTagName("Telefonszám");	//Telefonszám elem elérése
+		                Node tsznode = tszam.item(i);
+						if(tsznode.getNodeType() == Node.ELEMENT_NODE) {
+							Element TSZelement = (Element) tsznode;
+							
+							String kbkod = TSZelement.getElementsByTagName("kbkod").item(0).getTextContent();					//Telefonszám elem belsõ 
+							String telefonszam = TSZelement.getElementsByTagName("telefonszam").item(0).getTextContent();		//tulajdonságainak elérése
+
+				            System.out.println("Könyvesbolt kódja : " + kbkod);	//Ezek kiíratása
+				            System.out.println("Könyvesbolt telefonszám : " + telefonszam);
+				            System.out.println();	                
+		                }
+						
+						
+						NodeList beszerez = doc.getElementsByTagName("Beszerez");	//Beszerez kapcsolat-elem elérése
+		                Node Besznode = beszerez.item(i);
+						if(Besznode.getNodeType() == Node.ELEMENT_NODE) {
+							Element Beszelement = (Element) Besznode;
+							
+							String kkod = Beszelement.getElementsByTagName("kkod").item(0).getTextContent();
+							String kbkod = Beszelement.getElementsByTagName("kbkod").item(0).getTextContent();
+							String bIdõpont = Beszelement.getElementsByTagName("bIdõpont").item(0).getTextContent();	//Beszerez kapcsolat-elem belsõ 
+							String bDarab = Beszelement.getElementsByTagName("bDarab").item(0).getTextContent();		//tulajdonságainak elérése
+							String bÁr = Beszelement.getElementsByTagName("bÁr").item(0).getTextContent();
+							String bKöltség = Beszelement.getElementsByTagName("bKöltség").item(0).getTextContent();	
+							
+							System.out.println("Beszerzett könyv kódja : " + kkod);
+							System.out.println("Beszerzõ könyvesbolt kódja : " + kbkod);
+							System.out.println("Beszerzés idõpontja : " + bIdõpont);//Ezek kiíratása
+							System.out.println("Beszerzett darabszám : " + bDarab);
+							System.out.println("Beszerzési ár : " + bÁr);
+							System.out.println("Beszerzési össz költség : " + bKöltség);
+				            System.out.println();	                
+		                }
+						
+						NodeList eladás = doc.getElementsByTagName("Eladás");	//Eladás kapcsolat-elem elérése
+		                Node Eladnode = eladás.item(i);
+						if(Eladnode.getNodeType() == Node.ELEMENT_NODE) {
+							Element Eladelement = (Element) Eladnode;
+							
+							String kkod = Eladelement.getElementsByTagName("kkod").item(0).getTextContent();
+							String kbkod = Eladelement.getElementsByTagName("kbkod").item(0).getTextContent();
+							String eIdõpont = Eladelement.getElementsByTagName("eIdõpont").item(0).getTextContent();	//Eladás kapcsolat-elem belsõ 
+							String eDarab = Eladelement.getElementsByTagName("eDarab").item(0).getTextContent();		//tulajdonságainak elérése
+							String eÁr = Eladelement.getElementsByTagName("eÁr").item(0).getTextContent();
+							
+							System.out.println("Eladott könyv kódja : " + kkod);
+							System.out.println("Eladó könyvesbolt kódja : " + kbkod);
+							System.out.println("Eladás idõpontja : " + eIdõpont);//Ezek kiíratása
+							System.out.println("Eladott darabszám : " + eDarab);
+							System.out.println("Eladási ár : " + eÁr);
+				            System.out.println();	                
+		                }
+						
+						NodeList vasarol = doc.getElementsByTagName("Vásárol");	//Vásárol kapcsolat-elem elérése
+		                Node vsnode = vasarol.item(i);
+						if(vsnode.getNodeType() == Node.ELEMENT_NODE) {
+							Element VSelement = (Element) vsnode;
+							
+							String kbkod = VSelement.getElementsByTagName("kbkod").item(0).getTextContent();					//Vásárol kapcsolat-elem belsõ 
+							String vkod = VSelement.getElementsByTagName("vkod").item(0).getTextContent();						//tulajdonságainak elérése
+
+				            System.out.println("Könyvesbolt kódja : " + kbkod);	//Ezek kiíratása
+				            System.out.println("Vásárló kódja : " + vkod);
+				            System.out.println();	                
+		                }
+						
+						
 						
 						NodeList vasarlo = doc.getElementsByTagName("Vásárló"); //Vásárló elem elérése
 		                Node Vnode = vasarlo.item(i);
@@ -127,6 +198,7 @@ public class DOMReadI3I4BP {
 							}
 							
 						}
+						
 		                System.out.println("-----------------------------------------------------------------");
 					}
 				}
