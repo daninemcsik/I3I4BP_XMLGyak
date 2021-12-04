@@ -13,4 +13,12 @@ xs:noNamespaceSchemaLocation="http://www.example.com/szemelyekI3I4BP.xsd">
 			<varos id="varos_01">Miskolc</varos>
 		</szemely_id>
 	</szemely>
+	
+	<szemely nem="ferfi">
+		<szemely_id id="sz_02">
+			<nev id="nev_01">ND</nev>
+			<kor >21</kor>
+			<varos id="varos_01">Miskolc</varos>
+		</szemely_id>
+	</szemely>
 </szemelyek>
