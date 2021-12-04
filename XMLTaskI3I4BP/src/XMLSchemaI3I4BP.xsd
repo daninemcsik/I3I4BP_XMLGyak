@@ -25,6 +25,7 @@
 							<xs:element name="Kiadó">
 								<xs:complexType>
 									<xs:sequence>
+										<xs:element name="kkod" type="xs:unsignedInt"/>
 										<xs:element name="kiVáros" type="xs:string" />
 										<xs:element name="kiCím" type="xs:string" />
 										<xs:element name="kiNév" type="xs:string" />
@@ -40,9 +41,54 @@
 										<xs:element name="kbCím" type="xs:string" />
 										<xs:element name="kbNév" type="xs:string" />
 									</xs:sequence>
-									<xs:attribute name="telefonszam" type="xs:unsignedInt" use="required" />
+									<xs:attribute name="kbkod" type="xs:unsignedInt" use="required"/>
 								</xs:complexType>
 							</xs:element>
+							
+							<xs:element name="Beszerez">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="kkod" type="xs:unsignedInt"/>
+										<xs:element name="kbkod" type="xs:unsignedInt"/>
+										<xs:element name="bIdőpont" type="xs:string"/>
+										<xs:element name="bDarab" type="xs:unsignedInt"/>
+										<xs:element name="bÁr" type="xs:unsignedInt"/>
+										<xs:element name="bKöltség" type="xs:int"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+							<xs:element name="Telefonszám">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="kbkod" type="xs:unsignedInt"/>
+										<xs:element name="telefonszam" type="xs:unsignedInt"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+							<xs:element name="Eladás">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="kkod" type="xs:unsignedInt"/>
+										<xs:element name="kbkod" type="xs:unsignedInt"/>
+										<xs:element name="eIdőpont" type="xs:string"/>
+										<xs:element name="eDarab" type="xs:unsignedInt"/>
+										<xs:element name="eÁr" type="xs:unsignedInt"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+							<xs:element name="Vásárol">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="kbkod" type="xs:unsignedInt"/>
+										<xs:element name="vkod" type="xs:unsignedInt"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+							
 							
 							<xs:element name="Vásárló">
 								<xs:complexType>

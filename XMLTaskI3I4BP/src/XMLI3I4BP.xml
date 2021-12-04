@@ -13,16 +13,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="01">
+			<kkod>01</kkod>
 			<kiVáros>Szeged</kiVáros>
 			<kiCím>Szegedi utca 3.</kiCím>
 			<kiNév>Szegedi kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="704813192">
+		<Könyvesbolt kbkod="01">
 			<kbVáros>Szeged</kbVáros>
 			<kbCím>Vitéz utca 30.</kbCím>
 			<kbNév>Szögödi könyvök</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>01</kkod>
+			<kbkod>01</kbkod>
+			<bIdőpont>20/02/2020</bIdőpont>
+			<bDarab>2</bDarab>
+			<bÁr>3400</bÁr>
+			<bKöltség>6800</bKöltség>  <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>01</kbkod>
+			<telefonszam>704813192</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>01</kkod>
+			<kbkod>01</kbkod>
+			<eIdőpont>21/02/2020</eIdőpont>
+			<eDarab>2</eDarab>
+			<eÁr>4000</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>01</kbkod>
+			<vkod>04</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="04">
 			<vNév>Kovács Tímea</vNév>
@@ -49,16 +77,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="02">
+			<kkod>02</kkod>
 			<kiVáros>Budapest</kiVáros>
 			<kiCím>Pesti út 65.</kiCím>
 			<kiNév>Pesti kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="307318491">
+		<Könyvesbolt kbkod="02">
 			<kbVáros>Budapest</kbVáros>
 			<kbCím>Szugló utca 40.</kbCím>
 			<kbNév>Book-A-Pest</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>02</kkod>
+			<kbkod>02</kbkod>
+			<bIdőpont>11/11/2019</bIdőpont>
+			<bDarab>5</bDarab>
+			<bÁr>2100</bÁr>
+			<bKöltség>10500</bKöltség> <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>02</kbkod>
+			<telefonszam>307318491</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>02</kkod>
+			<kbkod>02</kbkod>
+			<eIdőpont>11/12/2019</eIdőpont>
+			<eDarab>4</eDarab>
+			<eÁr>3000</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>02</kbkod>
+			<vkod>01</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="01">
 			<vNév>Nagy Ferenc</vNév>
@@ -85,16 +141,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="03">
+			<kkod>03</kkod>
 			<kiVáros>Miskolc</kiVáros>
 			<kiCím>Miskolci utca 11.</kiCím>
 			<kiNév>Miskolci kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="207431975">
+		<Könyvesbolt kbkod="03">
 			<kbVáros>Miskolci</kbVáros>
 			<kbCím>Széchenyi utca 20.</kbCím>
 			<kbNév>Libri Miskolc</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>03</kkod>
+			<kbkod>03</kbkod>
+			<bIdőpont>21/02/2021</bIdőpont>
+			<bDarab>5</bDarab>
+			<bÁr>3000</bÁr>
+			<bKöltség>15000</bKöltség>	<!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>03</kbkod>
+			<telefonszam>207431975</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>03</kkod>
+			<kbkod>03</kbkod>
+			<eIdőpont>21/03/2021</eIdőpont>
+			<eDarab>3</eDarab>
+			<eÁr>4200</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>03</kbkod>
+			<vkod>05</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="05">
 			<vNév>Huszár Zsófia</vNév>
@@ -121,16 +205,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="04">
+			<kkod>04</kkod>
 			<kiVáros>Eger</kiVáros>
 			<kiCím>Egri út 7.</kiCím>
 			<kiNév>Egri kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="309184751">
+		<Könyvesbolt kbkod="04">
 			<kbVáros>Eger</kbVáros>
 			<kbCím>Sóház utca 11.</kbCím>
 			<kbNév>Lira Eger</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>04</kkod>
+			<kbkod>04</kbkod>
+			<bIdőpont>20/12/2016</bIdőpont>
+			<bDarab>4</bDarab>
+			<bÁr>1500</bÁr>
+			<bKöltség>6000</bKöltség> <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>04</kbkod>
+			<telefonszam>309184751</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>04</kkod>
+			<kbkod>04</kbkod>
+			<eIdőpont>12/12/2017</eIdőpont>
+			<eDarab>2</eDarab>
+			<eÁr>4500</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>04</kbkod>
+			<vkod>03</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="03">
 			<vNév>Fekete Roland</vNév>
@@ -157,16 +269,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="05">
+			<kkod>05</kkod>
 			<kiVáros>Szombathely</kiVáros>
 			<kiCím>Szombathely utca 13.</kiCím>
 			<kiNév>Szombathelyi kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="701831951">
+		<Könyvesbolt kbkod="05">
 			<kbVáros>Szombathely</kbVáros>
 			<kbCím>Forró utca 3.</kbCím>
 			<kbNév>Office Könyvesbolt</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>05</kkod>
+			<kbkod>05</kbkod>
+			<bIdőpont>11/11/2011</bIdőpont>
+			<bDarab>10</bDarab>
+			<bÁr>3400</bÁr>
+			<bKöltség>34000</bKöltség> <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>05</kbkod>
+			<telefonszam>701831951</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>05</kkod>
+			<kbkod>05</kbkod>
+			<eIdőpont>12/03/2012</eIdőpont>
+			<eDarab>9</eDarab>
+			<eÁr>3900</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>05</kbkod>
+			<vkod>02</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="02">
 			<vNév>Kis Tibor</vNév>
@@ -193,16 +333,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="01">
+			<kkod>06</kkod>
 			<kiVáros>Szeged</kiVáros>
 			<kiCím>Szegedi utca 3.</kiCím>
 			<kiNév>Szegedi kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="704813192">
+		<Könyvesbolt kbkod="01">
 			<kbVáros>Szeged</kbVáros>
 			<kbCím>Vitéz utca 30.</kbCím>
 			<kbNév>Szögödi könyvök</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>06</kkod>
+			<kbkod>01</kbkod>
+			<bIdőpont>20/09/2012</bIdőpont>
+			<bDarab>3</bDarab>
+			<bÁr>3400</bÁr>
+			<bKöltség>10200</bKöltség>  <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>01</kbkod>
+			<telefonszam>704813192</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>06</kkod>
+			<kbkod>01</kbkod>
+			<eIdőpont>21/10/2013</eIdőpont>
+			<eDarab>2</eDarab>
+			<eÁr>4000</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>01</kbkod>
+			<vkod>09</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="09">
 			<vNév>Lakatos Noel</vNév>
@@ -229,16 +397,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="02">
+			<kkod>07</kkod>
 			<kiVáros>Budapest</kiVáros>
 			<kiCím>Pesti út 65.</kiCím>
 			<kiNév>Pesti kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="307318491">
+		<Könyvesbolt kbkod="02">
 			<kbVáros>Budapest</kbVáros>
 			<kbCím>Szugló utca 40.</kbCím>
 			<kbNév>Book-A-Pest</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>07</kkod>
+			<kbkod>02</kbkod>
+			<bIdőpont>20/11/2021</bIdőpont>
+			<bDarab>10</bDarab>
+			<bÁr>2000</bÁr>
+			<bKöltség>20000</bKöltség> <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>02</kbkod>
+			<telefonszam>307318491</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>07</kkod>
+			<kbkod>02</kbkod>
+			<eIdőpont>22/11/2021</eIdőpont>
+			<eDarab>8</eDarab>
+			<eÁr>3100</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>02</kbkod>
+			<vkod>10</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="10">
 			<vNév>Bognár Éva</vNév>
@@ -265,16 +461,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="03">
+			<kkod>08</kkod>
 			<kiVáros>Miskolc</kiVáros>
 			<kiCím>Miskolci utca 11.</kiCím>
 			<kiNév>Miskolci kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="301829231">
+		<Könyvesbolt kbkod="06">
 			<kbVáros>Miskolc</kbVáros>
 			<kbCím>Iroda utca 4.</kbCím>
 			<kbNév>Office Könyvesbolt</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>08</kkod>
+			<kbkod>06</kbkod>
+			<bIdőpont>11/11/2020</bIdőpont>
+			<bDarab>1</bDarab>
+			<bÁr>5600</bÁr>
+			<bKöltség>5600</bKöltség>  <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>06</kbkod>
+			<telefonszam>301829231</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>08</kkod>
+			<kbkod>06</kbkod>
+			<eIdőpont>11/12/2020</eIdőpont>
+			<eDarab>1</eDarab>
+			<eÁr>10000</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>06</kbkod>
+			<vkod>08</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="08">
 			<vNév>Mezei Gábor</vNév>
@@ -301,16 +525,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="04">
+			<kkod>09</kkod>
 			<kiVáros>Eger</kiVáros>
 			<kiCím>Egri út 7.</kiCím>
 			<kiNév>Egri kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="309184751">
+		<Könyvesbolt kbkod="04">
 			<kbVáros>Eger</kbVáros>
 			<kbCím>Sóház utca 11.</kbCím>
 			<kbNév>Lira Eger</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>09</kkod>
+			<kbkod>04</kbkod>
+			<bIdőpont>12/12/2012</bIdőpont>
+			<bDarab>3</bDarab>
+			<bÁr>4500</bÁr>
+			<bKöltség>13500</bKöltség>  <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>04</kbkod>
+			<telefonszam>309184751</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>09</kkod>
+			<kbkod>04</kbkod>
+			<eIdőpont>20/12/2013</eIdőpont>
+			<eDarab>3</eDarab>
+			<eÁr>7000</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>04</kbkod>
+			<vkod>06</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="06">
 			<vNév>Kiss Levente</vNév>
@@ -337,16 +589,44 @@
 		</Szerző>
 		
 		<Kiadó kikod="05">
+			<kkod>10</kkod>
 			<kiVáros>Szombathely</kiVáros>
 			<kiCím>Szombathely utca 13.</kiCím>
 			<kiNév>Szombathelyi kiadó</kiNév>
 		</Kiadó>
 		
-		<Könyvesbolt telefonszam ="208194851">
+		<Könyvesbolt kbkod="07">
 			<kbVáros>Szombathely</kbVáros>
 			<kbCím>Vezér utca 6.</kbCím>
 			<kbNév>Office Könyvesbolt</kbNév>
 		</Könyvesbolt>
+		
+		<Beszerez>
+			<kkod>10</kkod>
+			<kbkod>07</kbkod>
+			<bIdőpont>12/08/2019</bIdőpont>
+			<bDarab>4</bDarab>
+			<bÁr>5500</bÁr>
+			<bKöltség>22000</bKöltség>  <!-- bDarab * bÁr -->
+		</Beszerez>
+		
+		<Telefonszám>
+			<kbkod>07</kbkod>
+			<telefonszam>208194851</telefonszam>
+		</Telefonszám>
+		
+		<Eladás>
+			<kkod>10</kkod>
+			<kbkod>07</kbkod>
+			<eIdőpont>20/09/2019</eIdőpont>
+			<eDarab>4</eDarab>
+			<eÁr>8200</eÁr>
+		</Eladás>
+		
+		<Vásárol>
+			<kbkod>07</kbkod>
+			<vkod>07</vkod>
+		</Vásárol>
 		
 		<Vásárló vkod="07">
 			<vNév>Barna Virág</vNév>
